@@ -120,7 +120,7 @@ const SignupForm = ({ switchAuthState }) => {
         sx={{ marginTop: 1 }}
         onClick={() => switchAuthState()}
       >
-        sign in
+        Log in
       </Button>
 
       {errorMessage && (
